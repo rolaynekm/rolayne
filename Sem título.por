@@ -1,21 +1,16 @@
 programa {
   funcao inicio() {
-  valorConta real 
-  porcentagemGorjeta real
-  gorjeta real 
-  totalAPagar real
+    variavel T D V
+    real T,D,V
+    escreva("Digite a D a ser percorrida(em km): ")
+    leia(D)
 
-  escreva("Digite o valor da conta: R$ ")
-   leia(valorConta) 
+    escreva("Digite a V média do carro(em km/h):")
+    leia(V)
 
-   escreva("Digite a porcentagem da gorjeta que deseja dar: ") 
-   leia(porcentagemGorjeta)
+    tempo = D/V
 
- gorjeta <- (porcentagemGorjeta / 100) * valorConta
+    escreva("O tempo estimado da viagem é:", T, "horas")
 
- totalAPagar <- valorConta + porcentagemGorjeta
-
- escreva("Valor da gorjeta: R$ ", gorjeta 0/2, "\n") 
- escreva("Total a ser pago: R$ ", totalAPagar 0/2, "\n") 
   }
 }
